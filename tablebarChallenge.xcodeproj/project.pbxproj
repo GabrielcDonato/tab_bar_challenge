@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		850CDCB82AB4DFF8002559C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCB72AB4DFF8002559C4 /* AppDelegate.swift */; };
 		850CDCBA2AB4DFF8002559C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCB92AB4DFF8002559C4 /* SceneDelegate.swift */; };
-		850CDCBC2AB4DFF8002559C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCBB2AB4DFF8002559C4 /* ViewController.swift */; };
-		850CDCBF2AB4DFF8002559C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850CDCBD2AB4DFF8002559C4 /* Main.storyboard */; };
+		850CDCBC2AB4DFF8002559C4 /* Tela01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCBB2AB4DFF8002559C4 /* Tela01VC.swift */; };
 		850CDCC12AB4DFF9002559C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850CDCC02AB4DFF9002559C4 /* Assets.xcassets */; };
 		850CDCC42AB4DFF9002559C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850CDCC22AB4DFF9002559C4 /* LaunchScreen.storyboard */; };
+		850CDCCE2AB4E03D002559C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850CDCCD2AB4E03D002559C4 /* Main.storyboard */; };
+		850CDCD22AB4E0DA002559C4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCD12AB4E0DA002559C4 /* TabBarController.swift */; };
+		850CDCD42AB4E31D002559C4 /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCD32AB4E31D002559C4 /* Tela02VC.swift */; };
+		850CDCD62AB4E34D002559C4 /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCD52AB4E34D002559C4 /* Tela03VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		850CDCB42AB4DFF8002559C4 /* tablebarChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tablebarChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850CDCB72AB4DFF8002559C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		850CDCB92AB4DFF8002559C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		850CDCBB2AB4DFF8002559C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		850CDCBE2AB4DFF8002559C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		850CDCBB2AB4DFF8002559C4 /* Tela01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela01VC.swift; sourceTree = "<group>"; };
 		850CDCC02AB4DFF9002559C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850CDCC32AB4DFF9002559C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850CDCC52AB4DFF9002559C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850CDCCD2AB4E03D002559C4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		850CDCD12AB4E0DA002559C4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		850CDCD32AB4E31D002559C4 /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
+		850CDCD52AB4E34D002559C4 /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				850CDCB72AB4DFF8002559C4 /* AppDelegate.swift */,
 				850CDCB92AB4DFF8002559C4 /* SceneDelegate.swift */,
-				850CDCBB2AB4DFF8002559C4 /* ViewController.swift */,
-				850CDCBD2AB4DFF8002559C4 /* Main.storyboard */,
+				850CDCBB2AB4DFF8002559C4 /* Tela01VC.swift */,
+				850CDCCD2AB4E03D002559C4 /* Main.storyboard */,
 				850CDCC02AB4DFF9002559C4 /* Assets.xcassets */,
 				850CDCC22AB4DFF9002559C4 /* LaunchScreen.storyboard */,
 				850CDCC52AB4DFF9002559C4 /* Info.plist */,
+				850CDCD12AB4E0DA002559C4 /* TabBarController.swift */,
+				850CDCD32AB4E31D002559C4 /* Tela02VC.swift */,
+				850CDCD52AB4E34D002559C4 /* Tela03VC.swift */,
 			);
 			path = tablebarChallenge;
 			sourceTree = "<group>";
@@ -126,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				850CDCC42AB4DFF9002559C4 /* LaunchScreen.storyboard in Resources */,
+				850CDCCE2AB4E03D002559C4 /* Main.storyboard in Resources */,
 				850CDCC12AB4DFF9002559C4 /* Assets.xcassets in Resources */,
-				850CDCBF2AB4DFF8002559C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850CDCBC2AB4DFF8002559C4 /* ViewController.swift in Sources */,
+				850CDCBC2AB4DFF8002559C4 /* Tela01VC.swift in Sources */,
+				850CDCD22AB4E0DA002559C4 /* TabBarController.swift in Sources */,
+				850CDCD42AB4E31D002559C4 /* Tela02VC.swift in Sources */,
+				850CDCD62AB4E34D002559C4 /* Tela03VC.swift in Sources */,
 				850CDCB82AB4DFF8002559C4 /* AppDelegate.swift in Sources */,
 				850CDCBA2AB4DFF8002559C4 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		850CDCBD2AB4DFF8002559C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				850CDCBE2AB4DFF8002559C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		850CDCC22AB4DFF9002559C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
