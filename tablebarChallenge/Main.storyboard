@@ -98,6 +98,7 @@
                         <outlet property="nameLabel" destination="27d-N3-D0g" id="R76-Se-sfE"/>
                         <outlet property="nameTextField" destination="TUW-t9-mar" id="uz7-Xl-lY4"/>
                         <outlet property="profileImageView" destination="WB6-TJ-YsS" id="Azh-hm-F8f"/>
+                        <outlet property="tableView" destination="csA-WA-wk5" id="BnL-TL-yjq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hkw-by-mtI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

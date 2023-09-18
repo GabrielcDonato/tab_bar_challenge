@@ -16,6 +16,9 @@
 		850CDCD22AB4E0DA002559C4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCD12AB4E0DA002559C4 /* TabBarController.swift */; };
 		850CDCD42AB4E31D002559C4 /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCD32AB4E31D002559C4 /* Tela02VC.swift */; };
 		850CDCD62AB4E34D002559C4 /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CDCD52AB4E34D002559C4 /* Tela03VC.swift */; };
+		85567A352AB7CC0C00D53672 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85567A332AB7CC0C00D53672 /* CustomTableViewCell.swift */; };
+		85567A362AB7CC0C00D53672 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85567A342AB7CC0C00D53672 /* CustomTableViewCell.xib */; };
+		85567A392AB7D04900D53672 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85567A382AB7D04900D53672 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		850CDCD12AB4E0DA002559C4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		850CDCD32AB4E31D002559C4 /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
 		850CDCD52AB4E34D002559C4 /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
+		85567A332AB7CC0C00D53672 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		85567A342AB7CC0C00D53672 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		85567A382AB7D04900D53672 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,8 @@
 		850CDCB62AB4DFF8002559C4 /* tablebarChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				85567A372AB7D03600D53672 /* models */,
+				85567A322AB7CBFA00D53672 /* cell */,
 				850CDCB72AB4DFF8002559C4 /* AppDelegate.swift */,
 				850CDCB92AB4DFF8002559C4 /* SceneDelegate.swift */,
 				850CDCBB2AB4DFF8002559C4 /* Tela01VC.swift */,
@@ -74,6 +82,23 @@
 				850CDCD52AB4E34D002559C4 /* Tela03VC.swift */,
 			);
 			path = tablebarChallenge;
+			sourceTree = "<group>";
+		};
+		85567A322AB7CBFA00D53672 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				85567A332AB7CC0C00D53672 /* CustomTableViewCell.swift */,
+				85567A342AB7CC0C00D53672 /* CustomTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		85567A372AB7D03600D53672 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				85567A382AB7D04900D53672 /* File.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +161,7 @@
 			files = (
 				850CDCC42AB4DFF9002559C4 /* LaunchScreen.storyboard in Resources */,
 				850CDCCE2AB4E03D002559C4 /* Main.storyboard in Resources */,
+				85567A362AB7CC0C00D53672 /* CustomTableViewCell.xib in Resources */,
 				850CDCC12AB4DFF9002559C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +176,9 @@
 				850CDCBC2AB4DFF8002559C4 /* Tela01VC.swift in Sources */,
 				850CDCD22AB4E0DA002559C4 /* TabBarController.swift in Sources */,
 				850CDCD42AB4E31D002559C4 /* Tela02VC.swift in Sources */,
+				85567A352AB7CC0C00D53672 /* CustomTableViewCell.swift in Sources */,
 				850CDCD62AB4E34D002559C4 /* Tela03VC.swift in Sources */,
+				85567A392AB7D04900D53672 /* File.swift in Sources */,
 				850CDCB82AB4DFF8002559C4 /* AppDelegate.swift in Sources */,
 				850CDCBA2AB4DFF8002559C4 /* SceneDelegate.swift in Sources */,
 			);
