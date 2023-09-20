@@ -72,14 +72,14 @@
 				85567A322AB7CBFA00D53672 /* cell */,
 				850CDCB72AB4DFF8002559C4 /* AppDelegate.swift */,
 				850CDCB92AB4DFF8002559C4 /* SceneDelegate.swift */,
+				850CDCD52AB4E34D002559C4 /* Tela03VC.swift */,
+				850CDCD32AB4E31D002559C4 /* Tela02VC.swift */,
 				850CDCBB2AB4DFF8002559C4 /* Tela01VC.swift */,
 				850CDCCD2AB4E03D002559C4 /* Main.storyboard */,
+				850CDCD12AB4E0DA002559C4 /* TabBarController.swift */,
 				850CDCC02AB4DFF9002559C4 /* Assets.xcassets */,
 				850CDCC22AB4DFF9002559C4 /* LaunchScreen.storyboard */,
 				850CDCC52AB4DFF9002559C4 /* Info.plist */,
-				850CDCD12AB4E0DA002559C4 /* TabBarController.swift */,
-				850CDCD32AB4E31D002559C4 /* Tela02VC.swift */,
-				850CDCD52AB4E34D002559C4 /* Tela03VC.swift */,
 			);
 			path = tablebarChallenge;
 			sourceTree = "<group>";
